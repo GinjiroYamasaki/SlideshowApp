@@ -14,6 +14,12 @@
 		5DC2C0001CF93D7200394861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2BFFE1CF93D7200394861 /* LaunchScreen.storyboard */; };
 		5DC2C00B1CF93D7200394861 /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC2C00A1CF93D7200394861 /* SlideshowAppTests.swift */; };
 		5DC2C0161CF93D7200394861 /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC2C0151CF93D7200394861 /* SlideshowAppUITests.swift */; };
+		5DC2C04B1D08401300394861 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2C04A1D08401300394861 /* image1.jpeg */; };
+		5DC2C04D1D08423600394861 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2C04C1D08423600394861 /* image2.jpeg */; };
+		5DC2C04F1D08423D00394861 /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2C04E1D08423D00394861 /* image3.jpeg */; };
+		5DC2C0511D08424500394861 /* image4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2C0501D08424500394861 /* image4.jpeg */; };
+		5DC2C0531D0844B600394861 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2C0521D0844B600394861 /* image0.jpg */; };
+		5DC2C0551D08469A00394861 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC2C0541D08469A00394861 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		5DC2C0111CF93D7200394861 /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC2C0151CF93D7200394861 /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		5DC2C0171CF93D7200394861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC2C04A1D08401300394861 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
+		5DC2C04C1D08423600394861 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpeg; sourceTree = "<group>"; };
+		5DC2C04E1D08423D00394861 /* image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpeg; sourceTree = "<group>"; };
+		5DC2C0501D08424500394861 /* image4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpeg; sourceTree = "<group>"; };
+		5DC2C0521D0844B600394861 /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		5DC2C0541D08469A00394861 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,13 @@
 			children = (
 				5DC2BFF51CF93D7200394861 /* AppDelegate.swift */,
 				5DC2BFF71CF93D7200394861 /* ViewController.swift */,
+				5DC2C0541D08469A00394861 /* ResultViewController.swift */,
 				5DC2BFF91CF93D7200394861 /* Main.storyboard */,
+				5DC2C0521D0844B600394861 /* image0.jpg */,
+				5DC2C04A1D08401300394861 /* image1.jpeg */,
+				5DC2C04C1D08423600394861 /* image2.jpeg */,
+				5DC2C04E1D08423D00394861 /* image3.jpeg */,
+				5DC2C0501D08424500394861 /* image4.jpeg */,
 				5DC2BFFC1CF93D7200394861 /* Assets.xcassets */,
 				5DC2BFFE1CF93D7200394861 /* LaunchScreen.storyboard */,
 				5DC2C0011CF93D7200394861 /* Info.plist */,
@@ -232,9 +250,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC2C04B1D08401300394861 /* image1.jpeg in Resources */,
+				5DC2C04F1D08423D00394861 /* image3.jpeg in Resources */,
 				5DC2C0001CF93D7200394861 /* LaunchScreen.storyboard in Resources */,
 				5DC2BFFD1CF93D7200394861 /* Assets.xcassets in Resources */,
 				5DC2BFFB1CF93D7200394861 /* Main.storyboard in Resources */,
+				5DC2C0511D08424500394861 /* image4.jpeg in Resources */,
+				5DC2C0531D0844B600394861 /* image0.jpg in Resources */,
+				5DC2C04D1D08423600394861 /* image2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +284,7 @@
 			files = (
 				5DC2BFF81CF93D7200394861 /* ViewController.swift in Sources */,
 				5DC2BFF61CF93D7200394861 /* AppDelegate.swift in Sources */,
+				5DC2C0551D08469A00394861 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +509,7 @@
 				5DC2C01C1CF93D7200394861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DC2C01D1CF93D7200394861 /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +518,7 @@
 				5DC2C01F1CF93D7200394861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DC2C0201CF93D7200394861 /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +527,7 @@
 				5DC2C0221CF93D7200394861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
